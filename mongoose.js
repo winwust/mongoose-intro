@@ -127,12 +127,7 @@ removeAllWithPromise(Video)
     })
     .then(function(videos) {
         console.log(videos);
-        var id = videos[0]._id;
-        return findByIdWithPromise(Video, id);
-    })
-    .then(function(video) {
-        console.log(video);
-        return removeWithPromise(video);
+        return removeWithPromise(videos[0]);
     })
     .then(function() {
         return findWithPromise(Video);
