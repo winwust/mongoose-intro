@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-intro",
+  "version": "1.0.0",
+  "description": "A project to introduce the basic mongoose API",
+  "main": "mongoose.js",
+  "dependencies": {
+    "mongoose": "^4.1.10",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winwust/mongoose-intro.git"
+  },
+  "author": "Win Wu <win.wu@skilltrellis.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winwust/mongoose-intro/issues"
+  },
+  "homepage": "https://github.com/winwust/mongoose-intro#readme"
+}
